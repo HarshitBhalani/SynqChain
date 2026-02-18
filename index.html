@@ -37,6 +37,7 @@
                 <span :class="navbarOpen && 'opacity-0' " class="relative my-[6px] block h-[2px] w-[30px] bg-black dark:bg-white"></span>
                 <span :class="navbarOpen && 'top-[-8px] rotate-[135deg]' " class="relative my-[6px] block h-[2px] w-[30px] bg-black dark:bg-white"></span>
               </button>
+              
                         <nav :class="!navbarOpen && 'hidden' " id="navbarCollapse" class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white py-4 px-6 shadow-sm dark:bg-black lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:shadow-none dark:lg:bg-transparent">
                             <ul class="blcok lg:flex">
                                 <li class="text-body-color-2 dark:text-body-color">
@@ -55,25 +56,6 @@
                       Roadmap
                     </a>
                                 </li>
-
-                                <li class="relative group submenu-item">
-                                    <a href="javascript:void(0)" @click="dropdownOpen = !dropdownOpen" class="relative flex py-2 text-lg font-semibold text-body-color-2 after:absolute after:right-1 after:top-1/2 after:mt-[-2px] after:h-2 after:w-2 after:translate-y-[-50%] after:rotate-45 after:border-b-2 after:border-r-2 after:border-current group-hover:text-primary dark:text-body-color dark:group-hover:text-white lg:ml-7 lg:inline-flex lg:py-5 lg:pl-0 lg:pr-4 lg:after:right-0 xl:ml-10 2xl:ml-12">
-                      Pages
-                    </a>
-                                    <div :class="dropdownOpen ? 'block' : 'hidden lg:block ' " class="submenu relative top-full left-0 rounded-lg bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-black lg:invisible lg:absolute lg:top-[115%] lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full">
-                                        <a href="blog-grid.html" class="block rounded-sm py-[10px] text-sm text-black hover:text-primary dark:text-white dark:hover:text-primary lg:px-4"> Blog Grid Page </a>
-
-                                        <a href="blog-details.html" class="block rounded-sm py-[10px] text-sm text-black hover:text-primary dark:text-white dark:hover:text-primary lg:px-4"> Blog Details Page </a>
-
-                                        <a href="token-sale.html" class="block rounded-sm py-[10px] text-sm text-black hover:text-primary dark:text-white dark:hover:text-primary lg:px-4"> Token Sale Page </a>
-
-                                        <a href="support.html" class="block rounded-sm py-[10px] text-sm text-black hover:text-primary dark:text-white dark:hover:text-primary lg:px-4"> Support Page </a>
-
-                                        <a href="signin.html" class="block rounded-sm py-[10px] text-sm text-black hover:text-primary dark:text-white dark:hover:text-primary lg:px-4"> Signin Page </a>
-
-                                        <a href="signup.html" class="block rounded-sm py-[10px] text-sm text-black hover:text-primary dark:text-white dark:hover:text-primary lg:px-4"> Signup Page </a>
-                                    </div>
-                                </li>
                                 <li>
                                     <a href="#contact" class="flex py-2 text-lg font-semibold scroll-menu text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-white lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12">
                       Support
@@ -82,6 +64,7 @@
                             </ul>
                         </nav>
                     </div>
+
                     <div class="flex justify-end pr-16 lg:pr-0 xl:pl-12 2xl:pl-20">
                         <div class="mr-4">
                             <label for="darkToggler" class="flex h-11 w-20 cursor-pointer items-center justify-center rounded-full bg-light-bg dark:bg-[#1E2763]">
