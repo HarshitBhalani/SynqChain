@@ -26,28 +26,13 @@
           navbarOpen: false,
           dropdownOpen: false
         }
-      "
-      :class="scrolledFromTop ? 'bg-white/80 dark:bg-dark/80  shadow-sticky backdrop-blur-xs ' : ' bg-transparent dark:bg-transparent' "
-      class="fixed top-0 z-50 flex items-center w-full"
-    >
-      <div class="container">
-        <div class="relative flex items-center justify-between -mx-4">
-          <div class="max-w-full px-4 w-60">
-            <a
-              href="index.html"
-              :class="scrolledFromTop && 'py-4! lg:py-2!' "
-              class="block w-full py-6 lg:py-5"
-            >
-              <img
-                src="src/images/logo/logo.svg"
-                alt="logo"
-                class="w-full dark:hidden"
-              />
-              <img
-                src="src/images/logo/logo-white.svg"
-                alt="logo"
-                class="hidden w-full dark:block"
-              />
+      " :class="scrolledFromTop ? 'bg-white/80 dark:bg-dark/80  shadow-sticky backdrop-blur-xs ' : ' bg-transparent dark:bg-transparent' " class="fixed top-0 z-50 flex items-center w-full">
+        <div class="container">
+            <div class="relative flex items-center justify-between -mx-4">
+                <div class="max-w-full px-4 w-60">
+                    <a href="index.html" :class="scrolledFromTop && 'py-4! lg:py-2!' " class="block w-full py-6 lg:py-5">
+              <img src="src/images/logo/logo.svg" alt="logo" class="w-full dark:hidden" />
+              <img src="src/images/logo/logo-white.svg" alt="logo" class="hidden w-full dark:block" />
             </a>
           </div>
           <div class="flex items-center justify-end w-full px-4">
@@ -2057,24 +2042,13 @@
 
     <!-- ===== Footer start ===== -->
     <footer class="relative z-10 pt-[120px]">
-      <div class="container">
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
-            <div
-              class="wow fadeInUp mb-14 max-w-[330px] xl:mb-20"
-              data-wow-delay="0s"
-            >
-              <a href="index.html" class="inline-block mb-6">
-                <img
-                  src="src/images/logo/logo-white.svg"
-                  alt="logo"
-                  class="hidden dark:block"
-                />
-                <img
-                  src="src/images/logo/logo.svg"
-                  alt="logo"
-                  class="dark:hidden"
-                />
+        <div class="container">
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
+                    <div class="wow fadeInUp mb-14 max-w-[330px] xl:mb-20" data-wow-delay="0s">
+                        <a href="index.html" class="inline-block mb-6">
+                <img src="src/images/logo/logo-white.svg" alt="logo" class="hidden dark:block" />
+                <img src="src/images/logo/logo.svg" alt="logo" class="dark:hidden" />
               </a>
               <p
                 class="mb-10 text-base font-medium text-body-color-2 dark:text-body-color"
@@ -2471,50 +2445,10 @@
       </svg>
     </button>
 
-    <div
-      id="synqChatPanel"
-      style="
-        display: none;
-        position: fixed;
-        right: 16px;
-        bottom: 116px;
-        width: min(320px, calc(100vw - 24px));
-        z-index: 9999;
-        background: #ffffff;
-        border-radius: 14px;
-        overflow: hidden;
-        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-        border: 1px solid #e5e7eb;
-      "
-    >
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          background: #111827;
-          color: #ffffff;
-          padding: 10px 12px;
-        "
-      >
-        <strong style="font-size: 14px; font-weight: 600"
-          >SynqChain Help Chat</strong
-        >
-        <button
-          id="synqChatClose"
-          type="button"
-          aria-label="Close chat"
-          style="
-            border: 0;
-            background: transparent;
-            color: #ffffff;
-            font-size: 18px;
-            line-height: 1;
-            cursor: pointer;
-          "
-        >
-          &times;
-        </button>
+    <div id="synqChatPanel" style="display: none; position: fixed; right: 16px; bottom: 116px; width: min(320px, calc(100vw - 24px)); z-index: 9999; background: #ffffff; border-radius: 14px; overflow: hidden; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25); border: 1px solid #E5E7EB;">
+      <div style="display: flex; align-items: center; justify-content: space-between; background: #111827; color: #ffffff; padding: 10px 12px;">
+        <strong style="font-size: 14px; font-weight: 600;">SynqChain Help Chat</strong>
+        <button id="synqChatClose" type="button" aria-label="Close chat" style="border: 0; background: transparent; color: #ffffff; font-size: 18px; line-height: 1; cursor: pointer;">&times;</button>
       </div>
       <div style="padding: 12px">
         <p style="margin: 0 0 10px; color: #374151; font-size: 13px">
