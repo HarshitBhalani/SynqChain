@@ -37,7 +37,6 @@
                 <span :class="navbarOpen && 'opacity-0' " class="relative my-[6px] block h-[2px] w-[30px] bg-black dark:bg-white"></span>
                 <span :class="navbarOpen && 'top-[-8px] rotate-[135deg]' " class="relative my-[6px] block h-[2px] w-[30px] bg-black dark:bg-white"></span>
               </button>
-              
                         <nav :class="!navbarOpen && 'hidden' " id="navbarCollapse" class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white py-4 px-6 shadow-sm dark:bg-black lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:shadow-none dark:lg:bg-transparent">
                             <ul class="blcok lg:flex">
                                 <li class="text-body-color-2 dark:text-body-color">
@@ -56,6 +55,8 @@
                       Roadmap
                     </a>
                                 </li>
+
+                                
                                 <li>
                                     <a href="#contact" class="flex py-2 text-lg font-semibold scroll-menu text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-white lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12">
                       Support
@@ -64,7 +65,6 @@
                             </ul>
                         </nav>
                     </div>
-
                     <div class="flex justify-end pr-16 lg:pr-0 xl:pl-12 2xl:pl-20">
                         <div class="mr-4">
                             <label for="darkToggler" class="flex h-11 w-20 cursor-pointer items-center justify-center rounded-full bg-light-bg dark:bg-[#1E2763]">
@@ -1006,7 +1006,7 @@
                 <div class="w-full px-4 lg:w-9/12 xl:w-8/12">
                     <div class="py-6 mb-10 bg-white rounded-lg single-faq wow fadeInUp px-7 dark:bg-dark md:py-8 md:px-10" data-wow-delay="0s">
                         <button @click="openFaq1 = !openFaq1" class="flex items-center justify-between w-full text-left faq-btn">
-                <h3 class="mr-2 text-base font-bold text-dark dark:text-white sm:text-lg md:text-xl">How can I participate in the ICO Token sale?</h3>
+                <h3 class="mr-2 text-base font-bold text-dark dark:text-white sm:text-lg md:text-xl">What is SynqChain?</h3>
                 <span
                   class="icon inline-flex h-5 w-full max-w-[20px] items-center justify-center rounded-sm bg-body-color-2 text-white dark:text-black dark:bg-body-color text-lg font-semibold"
                   :class="openFaq1 && 'rotate-180' "
@@ -1025,14 +1025,13 @@
               </button>
                         <div x-show="openFaq1" class="faq-content">
                             <p class="pt-6 text-base text-relaxed text-body-color-2 dark:text-body-color">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                                you need to be sure there isn't anything.
+                                SynqChain is a Web3 platform that helps users and businesses interact with blockchain services easily. Such as connecting wallets, managing tokens, and accessing decentralized features, through a simple, secure interface.
                             </p>
                         </div>
                     </div>
                     <div class="py-6 mb-10 bg-white rounded-lg single-faq wow fadeInUp px-7 dark:bg-dark md:py-8 md:px-10" data-wow-delay="0s">
                         <button @click="openFaq2 = !openFaq2" class="flex items-center justify-between w-full text-left faq-btn">
-                <h3 class="mr-2 text-base font-bold text-dark dark:text-white sm:text-lg md:text-xl">What is ICO Crypto?</h3>
+                <h3 class="mr-2 text-base font-bold text-dark dark:text-white sm:text-lg md:text-xl">Is SynqChain secure?</h3>
                 <span
                   class="icon inline-flex h-5 w-full max-w-[20px] items-center justify-center rounded-sm bg-body-color-2 text-white dark:text-black dark:bg-body-color text-lg font-semibold"
                   :class="openFaq2 && 'rotate-180' "
@@ -1051,14 +1050,13 @@
               </button>
                         <div x-show="openFaq2" class="faq-content">
                             <p class="pt-6 text-base text-relaxed text-body-color-2 dark:text-body-color">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                                you need to be sure there isn't anything.
+                                Yes. SynqChain follows best security practices like secure wallet connections, minimal data storage, and encrypted communication. However, users should still protect their private keys/seed phrases and use trusted wallets.
                             </p>
                         </div>
                     </div>
                     <div class="py-6 mb-10 bg-white rounded-lg single-faq wow fadeInUp px-7 dark:bg-dark md:py-8 md:px-10" data-wow-delay="0s">
                         <button @click="openFaq3 = !openFaq3" class="flex items-center justify-between w-full text-left faq-btn">
-                <h3 class="mr-2 text-base font-bold text-dark dark:text-white sm:text-lg md:text-xl">How do I benefit from the ICO Token?</h3>
+                <h3 class="mr-2 text-base font-bold text-dark dark:text-white sm:text-lg md:text-xl">Do I need a wallet to use SynqChain?</h3>
                 <span
                   class="icon inline-flex h-5 w-full max-w-[20px] items-center justify-center rounded-sm bg-body-color-2 text-white dark:text-black dark:bg-body-color text-lg font-semibold"
                   :class="openFaq3 && 'rotate-180' "
@@ -1077,14 +1075,13 @@
               </button>
                         <div x-show="openFaq3" class="faq-content">
                             <p class="pt-6 text-base text-relaxed text-body-color-2 dark:text-body-color">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                                you need to be sure there isn't anything.
+                               For basic browsing, you may not need a wallet. But to use Web3 features like transactions, staking, token purchase, or dApp interactions, you’ll need a compatible wallet (e.g., MetaMask or WalletConnect-supported wallets).
                             </p>
                         </div>
                     </div>
                     <div class="py-6 mb-10 bg-white rounded-lg single-faq wow fadeInUp px-7 dark:bg-dark md:py-8 md:px-10" data-wow-delay="0s">
                         <button @click="openFaq4 = !openFaq4" class="flex items-center justify-between w-full text-left faq-btn">
-                <h3 class="mr-2 text-base font-bold text-dark dark:text-white sm:text-lg md:text-xl">How can i purchase bitcoin?</h3>
+                <h3 class="mr-2 text-base font-bold text-dark dark:text-white sm:text-lg md:text-xl">Which networks does SynqChain support?</h3>
                 <span
                   class="icon inline-flex h-5 w-full max-w-[20px] items-center justify-center rounded-sm bg-body-color-2 text-white dark:text-black dark:bg-body-color text-lg font-semibold"
                   :class="openFaq4 && 'rotate-180' "
@@ -1103,8 +1100,7 @@
               </button>
                         <div x-show="openFaq4" class="faq-content">
                             <p class="pt-6 text-base text-relaxed text-body-color-2 dark:text-body-color">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                                you need to be sure there isn't anything.
+                                SynqChain is designed to support popular EVM-compatible networks (like Ethereum, Polygon, BNB Chain, etc.). Network availability may expand over time check the app dashboard or docs for the latest supported chains.
                             </p>
                         </div>
                     </div>
