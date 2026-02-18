@@ -1322,6 +1322,50 @@
     </footer>
     <!-- ===== Footer end ===== -->
 
+    <!-- ====== Call Floating Button Start -->
+    <a href="tel:+919099945526" aria-label="Call now" style="position: fixed; right: 26px; bottom: 216px; width: 52px; height: 52px; z-index: 9999; display: flex; align-items: center; justify-content: center; border-radius: 9999px; background: #1D4ED8; color: #ffffff; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.1.37 2.27.56 3.48.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.21.19 2.38.56 3.48a1 1 0 0 1-.25 1.01l-2.19 2.3Z"/>
+      </svg>
+    </a>
+    <!-- ====== Call Floating Button End -->
+
+    <!-- ====== WhatsApp Floating Button Start -->
+    <a href="https://wa.me/919099945526" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" style="position: fixed; right: 26px; bottom: 152px; width: 52px; height: 52px; z-index: 9999; display: flex; align-items: center; justify-content: center; border-radius: 9999px; background: #25D366; color: #ffffff; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);">
+      <svg width="26" height="26" viewBox="0 0 448 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-221.7 99.4-221.7 221.7 0 39.1 10.2 77.3 29.6 111L0 480l118.9-31.2c32.7 17.8 69.5 27.2 106.5 27.2h.1c122.3 0 223.5-99.4 223.5-221.7 0-59.3-23.1-115-65.1-157.2zM223.9 438.7h-.1c-33.2 0-65.7-8.9-94.1-25.6l-6.8-4-70.5 18.5 18.8-68.7-4.4-7.1c-18.5-29.4-28.2-63.3-28.2-98.2 0-102 83-185 185.1-185 49.4 0 95.8 19.3 130.8 54.3s54.2 81.5 54.2 130.9c0 102.1-82.9 184.9-184.8 184.9zm101.5-138.2c-5.6-2.8-33.1-16.3-38.3-18.2-5.1-1.9-8.8-2.8-12.6 2.8-3.7 5.6-14.4 18.2-17.6 21.9-3.2 3.7-6.5 4.2-12.1 1.4-33.1-16.5-54.8-29.5-76.7-66.8-5.8-10 5.8-9.3 16.5-31 1.9-3.7.9-7-0.5-9.8-1.4-2.8-12.6-30.3-17.2-41.4-4.5-10.8-9.1-9.3-12.6-9.5-3.2-.2-7-.2-10.7-.2s-9.8 1.4-14.9 7c-5.1 5.6-19.5 19.1-19.5 46.5 0 27.5 20 54.1 22.8 57.8 2.8 3.7 39.4 60.2 95.4 84.4 35.3 15.2 49.1 16.5 66.8 14.1 10.7-1.6 33.1-13.5 37.8-26.6 4.7-13 4.7-24.2 3.3-26.6-1.2-2.2-5-3.6-10.5-6.3z"/>
+      </svg>
+    </a>
+    <!-- ====== WhatsApp Floating Button End -->
+
+    <!-- ====== Chat Floating Button Start -->
+    <button id="synqChatToggle" type="button" aria-label="Open chat" style="position: fixed; right: 26px; bottom: 88px; width: 52px; height: 52px; z-index: 9999; display: flex; align-items: center; justify-content: center; border: 0; border-radius: 9999px; background: #0EA5E9; color: #ffffff; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25); cursor: pointer;">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M20 15C20 16.1046 19.1046 17 18 17H8L4 21V6C4 4.89543 4.89543 4 6 4H18C19.1046 4 20 4.89543 20 6V15Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <div id="synqChatPanel" style="display: none; position: fixed; right: 16px; bottom: 116px; width: min(320px, calc(100vw - 24px)); z-index: 9999; background: #ffffff; border-radius: 14px; overflow: hidden; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25); border: 1px solid #E5E7EB;">
+      <div style="display: flex; align-items: center; justify-content: space-between; background: #111827; color: #ffffff; padding: 10px 12px;">
+        <strong style="font-size: 14px; font-weight: 600;">SynqChain Help Chat</strong>
+        <button id="synqChatClose" type="button" aria-label="Close chat" style="border: 0; background: transparent; color: #ffffff; font-size: 18px; line-height: 1; cursor: pointer;">&times;</button>
+      </div>
+      <div style="padding: 12px;">
+        <p style="margin: 0 0 10px; color: #374151; font-size: 13px;">Select a question:</p>
+        <div style="display: grid; gap: 8px;">
+          <button type="button" data-synq-answer="SynqChain provides blockchain-ready web solutions for crypto, ICO, and Web3 businesses with fast launch support." style="text-align: left; border: 1px solid #D1D5DB; background: #F9FAFB; color: #111827; border-radius: 10px; padding: 9px 10px; font-size: 13px; cursor: pointer;">What does SynqChain do?</button>
+          <button type="button" data-synq-answer="You can explore Features, Roadmap, and Support directly from this page and request guidance from our team." style="text-align: left; border: 1px solid #D1D5DB; background: #F9FAFB; color: #111827; border-radius: 10px; padding: 9px 10px; font-size: 13px; cursor: pointer;">What can I find on this website?</button>
+          <button type="button" data-synq-answer="For direct support, use WhatsApp, call +91 9099945526, or submit your issue from the Support section." style="text-align: left; border: 1px solid #D1D5DB; background: #F9FAFB; color: #111827; border-radius: 10px; padding: 9px 10px; font-size: 13px; cursor: pointer;">How do I contact support quickly?</button>
+          <button type="button" data-synq-answer="Yes. Our section flow and templates are designed for crypto and Web3 projects with roadmap and launch-focused presentation." style="text-align: left; border: 1px solid #D1D5DB; background: #F9FAFB; color: #111827; border-radius: 10px; padding: 9px 10px; font-size: 13px; cursor: pointer;">Is this suitable for Web3/crypto projects?</button>
+          <button type="button" data-synq-answer="You can start by signing in, reviewing the roadmap, and sending your requirement in the support form for a quick callback." style="text-align: left; border: 1px solid #D1D5DB; background: #F9FAFB; color: #111827; border-radius: 10px; padding: 9px 10px; font-size: 13px; cursor: pointer;">How can I get started with SynqChain?</button>
+        </div>
+        <div id="synqChatAnswer" style="margin-top: 10px; border-radius: 10px; background: #EEF2FF; padding: 10px; color: #1E3A8A; font-size: 13px; line-height: 1.45;">
+          Hi, I am SynqChain assistant. Tap a question to view the answer.
+        </div>
+      </div>
+    </div>
+    <!-- ====== Chat Floating Button End -->
+
     <!-- ====== Back To Top Start -->
     <a x-show="scrolledFromTop" href="javascript:void(0)" name="scrollToTop" aria-label="scrollToTop" class="fixed left-auto flex items-center justify-center w-10 h-10 text-white transition rounded-lg shadow-md hover:shadow-signUp back-to-top bottom-8 right-8 z-999 bg-primary">
       <span class="mt-[6px] h-3 w-3 rotate-45 border-t border-l border-white"></span>
@@ -1364,6 +1408,34 @@
         }
 
         window.document.addEventListener("scroll", onScroll);
+
+        // floating chat open/close + quick answers
+        const synqChatToggle = document.getElementById("synqChatToggle");
+        const synqChatPanel = document.getElementById("synqChatPanel");
+        const synqChatClose = document.getElementById("synqChatClose");
+        const synqChatAnswer = document.getElementById("synqChatAnswer");
+        const synqChatQuestions = document.querySelectorAll("[data-synq-answer]");
+
+        if (synqChatToggle && synqChatPanel) {
+            synqChatToggle.addEventListener("click", () => {
+                const isOpen = synqChatPanel.style.display === "block";
+                synqChatPanel.style.display = isOpen ? "none" : "block";
+            });
+        }
+
+        if (synqChatClose && synqChatPanel) {
+            synqChatClose.addEventListener("click", () => {
+                synqChatPanel.style.display = "none";
+            });
+        }
+
+        synqChatQuestions.forEach((questionBtn) => {
+            questionBtn.addEventListener("click", () => {
+                if (synqChatAnswer) {
+                    synqChatAnswer.textContent = questionBtn.getAttribute("data-synq-answer");
+                }
+            });
+        });
     </script>
     <script defer src="bundle.js"></script>
     <script>
